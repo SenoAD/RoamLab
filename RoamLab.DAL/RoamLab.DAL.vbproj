@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>RoamLab.DAL</RootNamespace>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RoamLab.BO\RoamLab.BO.vbproj" />
+    <ProjectReference Include="..\RoamLab.Interface\RoamLab.Interface.vbproj" />
+  </ItemGroup>
+
+</Project>
