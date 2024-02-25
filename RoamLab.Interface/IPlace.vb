@@ -1,6 +1,6 @@
 ﻿Imports RoamLab.BO
 
 Public Interface IPlace
-    Inherits ISP(Of Place)
+    Inherits ICrud(Of Place)
 
 End Interface
